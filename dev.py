@@ -19,6 +19,7 @@ else:
 
 if __name__ == "__main__":
     os.environ["APP_ENV"] = "dev"
+    print('puk')
     port = int(os.environ.get("APP_PORT", 44777))
 
     console = Console()
